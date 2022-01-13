@@ -1,0 +1,99 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.head1{
+    font-size: 4.4rem;
+}
+
+input{
+    height: 5.2rem;
+    width: 35rem;
+    margin: 6px;
+    font-size: 3.6rem;
+    padding: 8px;
+    background-color: #3e7dc2;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+
+button{
+    width: 8.2rem;
+    margin: 6px 8px;
+    font-size: 4rem;
+    cursor: pointer;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 7px 0px;
+}
+
+.black-btn{
+    background-color: #1e1e1e;
+}
+
+.black-btn:hover{
+    background-color: black;
+}
+
+.brown-btn{
+    background-color: #bd622a;
+}
+
+.brown-btn:hover{
+    background-color: #a1460e;
+}
+
+.cyan-btn{
+    background-color: #ac5acc;
+}
+
+.cyan-btn:hover{
+    background-color: #7c1ea1;
+}
+
+.sky-btn{
+    background-color: #87afb1;
+}
+
+.sky-btn:hover{
+    background-color: #4e8285;
+}
+
+.green-btn{
+    background-color: #367d22;
+}
+
+.green-btn:hover{
+    background-color: #236012;
+}
+
+.red-btn{
+    background-color: #bb271a;
+}
+
+.red-btn:hover{
+    background-color: #91190f;
+}
